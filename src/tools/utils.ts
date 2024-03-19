@@ -1,0 +1,1 @@
+export const getImageHref = (path: string) => new URL(`/images/${path}`, window.location.origin).href
