@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
     return (
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">
-                Portfolio
+                MK
             </a>
             <div className={styles.menu}>
                 <img
@@ -37,4 +37,3 @@ export const Navbar: React.FC = () => {
         </nav>
     );
 };
-
